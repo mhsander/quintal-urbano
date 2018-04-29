@@ -1,0 +1,268 @@
+/* Quintal Urbano css */
+/* brand colors  light green rgb(43, 180, 84) dark green rgb(6, 99, 64) */
+html {
+  font-family: CenturyGothic, Helvetica, sans-serif;
+  font-size: 10px;
+  line-height: 2;
+  box-sizing: border-box;
+  background-color: #FFFFFF; /*darker RGB (240, 240, 240), need to figure out logo blending */
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  padding-bottom: 3rem;
+  position: inherit;
+  min-height: 100%;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: rgb(6, 99, 64);
+  padding-top: 2rem;
+  text-align: center;
+  margin-top: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: rgb(6, 99, 64);
+}
+
+h3 {
+  font-size: 2rem;;
+  text-align: center;
+  color: #3B3B3B;
+}
+
+ul,ol,dl, p {
+  font-size: 1.7rem;
+  list-style: none;
+  color: #3B3B3B;
+}
+
+header {
+  margin: 6rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.contact_header {
+  background-image: url("pictures/inside5.jpg");
+  background-repeat: no-repeat;
+  background-size: 93% 100%;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 15rem;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+.contact_header h1 {
+  color: rgb(6, 99, 64);
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.products_header {
+  background-image: url("pictures/sucos.jpeg");
+  background-repeat: no-repeat;
+  padding: 15rem;
+  overflow: hidden;
+  background-position: fixed;
+  background-size: 93% 85%;
+  background-color: #FFFFFF;
+}
+
+a:active {
+ background-color: rgb(43, 180, 84);
+ padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(6, 99, 64);
+}
+
+/* set header image Main Index page */
+.main_img {
+  width: 25%;
+  padding-top: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  display: block;
+  max-width: 500px;
+}
+
+/* set header image Quem Somos - about us page */
+.about_img {
+  width: 35%;
+  padding-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 600px;
+}
+
+/*all other imgs, position to left or right */
+
+.img_general {
+  width: 45%;
+  max-width: 100px;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  display: inline-block;
+  text-align: center;
+  max-width: 600px;
+}
+
+.img_food {
+  width: 35%;
+  max-width: 100px;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  margin-left: 15rem;
+  margin-right: 5rem;
+  display: inline-block;
+  text-align: center;
+  position: center;
+  max-width: 420px;
+}
+
+.img_produtos {
+  padding: 3rem;
+/*  display: block; */
+  margin: auto;
+  width: 35%;
+  float: left;
+}
+
+/*.img_produtos img {
+ padding-top: 2rem;
+ padding-bottom: 2rem;
+ margin-left: 3rem;
+ margin-right: 3rem;
+ display: left;
+}*/
+
+
+.top_nav {
+  width: 100%;
+  background: rgb(6, 99, 64);
+  min-height: 2rem;
+  padding: 0.5rem;
+  position: fixed;
+  top: 0;
+  text-align: center;
+}
+
+.top_nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.top_nav a:hover {
+  background-color: rgb(43, 180, 84);
+  padding: 1.5rem;
+}
+
+.list_nav {
+  list-style-type: none;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 40%;
+  padding: 0;
+  font-weight: 700;
+}
+
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+
+/*Content, between header and footer */
+
+#content {
+  margin: 5rem;
+  padding: 1rem;
+}
+
+#content p {
+    font-size: 2rem;
+    color: #3B3B3B;
+    margin-bottom: 0;
+}
+
+#content h4 {
+  font-size: 1.5rem;
+  color: rgb(6, 99, 64);
+  weight: normal;
+  margin-top: 0;
+}
+
+.body_div {
+  height: 100px;
+}
+
+content p {
+    color: #3B3B3B;
+  }
+
+/*FOOTER */
+#footer {
+  width: 100%;
+  background: rgb(6, 99, 64);
+  min-height: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+  color: white;
+  justify-content: space-evenly;
+  font-weight: 700;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-bottom: 0 auto;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 5px, 10px;
+}
+
+footer p {
+  margin-right: 30%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+/*footer a:hover {
+ background-color: rgb(43, 180, 84);
+ padding: 1.5rem;
+}*/
+
+.contact {
+  text-align: left;
+  color: white;
+}
+
+.social {
+  text-align: right;
+  color: white;
+}
+
+
+/*SMALLER ADJUSTMENTS*/
+/*display text in the same line */
+.inline {
+  display: inline;
+  margin-right: 10px;
+}
