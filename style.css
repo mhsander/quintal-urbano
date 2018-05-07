@@ -123,7 +123,7 @@ a {
 
 .img_food {
   width: 35%;
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 5rem;
   margin-left: 15rem;
   margin-right: 5rem;
@@ -173,9 +173,9 @@ a {
 .list_nav {
   list-style-type: none;
   color: white;
-  display: flex;
   justify-content: space-evenly;
-  margin-left: 40%;
+  display: flex;
+  margin-left: 5%;
   padding: 0;
   font-weight: 700;
 }
@@ -235,7 +235,7 @@ footer ul li {
 }
 
 footer p {
-  margin-right: 30%;
+  margin-right: 20%;
 }
 
 footer a {
@@ -263,5 +263,5 @@ footer a {
 /*display text in the same line */
 .inline {
   display: inline;
-  margin-right: 10px;
+  margin-right: 2%;
 }
